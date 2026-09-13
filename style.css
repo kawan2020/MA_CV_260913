@@ -42,7 +42,7 @@ body {
 
 /* 5. Block-specific Colors & Customizations */
 .block-1 {
-    background-image: url('images/banner.png');
+    background-image: url('images/banner.jpg');
     background-size: cover;
     background-position: center;
     padding: 30px 20px;
@@ -206,4 +206,112 @@ body {
     .container {
         gap: 32px;
     }
+}
+
+
+/* Block 9_1 Custom Color Theme */
+.block-9_1 {
+    background-color: rgba(243, 229, 245, 0.95); /* Matches block 8/9 theme color tones */
+}
+
+/* Carousel Architecture Layout Rules */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.carousel-track-wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    width: 100%;
+}
+
+/* Individual Slide Component Frame Layout */
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    max-height: 320px;
+    object-fit: contain;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.slide-description {
+    margin-top: 15px;
+    font-size: 0.95rem;
+    color: #444444;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+/* Interactive Navigation Arrows Style */
+.carousel-btn {
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.1);
+    color: #444444;
+    font-size: 0.9rem;          /* Slightly lowered font size so the arrow fits perfectly inside the circle */
+    
+    /* Crucial sizing locks */
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;             /* STOPS flexbox row compression from making it an oval shape */
+    
+    border-radius: 50%;         /* Generates a perfect circular boundary rim */
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;        /* Centers arrow vertically */
+    justify-content: center;    /* Centers arrow horizontally */
+    
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    z-index: 10;
+    transition: all 0.2s ease;
+}
+
+.carousel-btn:hover {
+    background-color: #800080;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+/* Carousel Tracking Dots Section */
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dot.active {
+    background-color: #800080; /* Core dark purple accent color */
+    transform: scale(1.2);
 }

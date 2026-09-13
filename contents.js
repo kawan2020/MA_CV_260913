@@ -98,6 +98,12 @@ Presented findings in Decolonizing the Curriculum 2024–25 Report
 on behalf of the Sociology Department and at the Durham 
 University Education Away Day Conference, September 2025.
 
+// Add this inside the myTextData template literal string in contents.js
+Block 9_1
+cert-1.jpg | This certificate is for Art and Design in 2025
+cert-2.jpg | This certificate is for another award description text here
+cert-3.jpg | You can add as many lines here as you have certificate images!
+cert-4.jpg | This certificate is for your fourth award description text here
 
 Block 10
 Travelling
