@@ -4,8 +4,11 @@ Maryanne Ko
 
 Block 2
 I was born in East Malaysia, a country rich in racial, linguistic, and religious diversity. Diversity is woven into daily life and present in every corner of the community.
+
 I was raised in Hong Kong, a city where East meets West. Its unique historical background and strong spirit of excellence, together with a constant pursuit of efficiency, have taught me how to position myself in a global world.
+
 As an Asian, I enjoy multicultural experiences across different countries and among people from varied backgrounds. Blending different ideas and traditions makes life more colorful and enjoyable.
+
 I hope to explore the world through research in the humanities and gain a deeper understanding of human needs.
 
 Block 3
